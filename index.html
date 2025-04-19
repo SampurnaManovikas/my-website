@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coming Soon - Mindful Space</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+
+      /* 💎 Teal Gradient Background */
+      background: linear-gradient(135deg, #004d40, #00695c, #00796b, #004d40);
+      background-size: 400% 400%;
+      animation: gradientShift 15s ease infinite;
+      color: #ffffff; /* White text for contrast */
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: center, 0% 50%; }
+      50% { background-position: center, 100% 50%; }
+      100% { background-position: center, 0% 50%; }
+    }
+
+    .content {
+      background-color: #000000; /* Black text box */
+      color: #FFD700; /* Gold text */
+      padding: 40px;
+      border-radius: 20px;
+      max-width: 600px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      color: #FFD700; /* Gold color for heading */
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #FFD700; /* Gold color for text */
+    }
+
+    /* Logo positioning */
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 150px; /* You can adjust the size */
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- Logo -->
+  <img src="Logo_final.png" alt="Mindful Space Logo" class="logo">
+
+  <div class="content">
+    <h1>Mindful Space</h1>
+    <p>Psychological Services | Healing. Growth. Resilience.</p>
+    <p style="margin-top: 20px;">We’re creating a space where your mental health matters most.</p>
+    <p><strong>Coming Soon in 2025</strong></p>
+  </div>
+</body>
+</html>
